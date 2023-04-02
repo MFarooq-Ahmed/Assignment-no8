@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zakat Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="image">
+    <img src="https://www.saylaniwelfare.com/static/media/logo_saylaniwelfare.22bf709605809177256c.png" alt="" srcset="">
+  </div>
+  <h2>Zakat Calculator</h2>
+  <form>
+    <label for=" income">Enter your Annual Income</label>
+    <input type="number" placeholder="0" id="income" name="income" required>
+    
+    <label for="savings">Enter your Savings:</label>
+    <input type="number" placeholder="0" id="savings" name="savings" required>
+    
+    <label for="gold">Enter the Tola of your Gold:</label>
+    <input type="number" placeholder="0" id="gold" name="gold" required>
+    
+    <label for="silver">Enter the Tola of your Silver:</label>
+    <input type="number" placeholder="0" id="silver" name="silver" required>
+    
+    <button type="button" onclick="calculateZakat()">Calculate Zakat</button>
+  </form>
+  <div id="result"></div>
+  <script src="app.js"></script>
+</body>
+</html>
