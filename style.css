@@ -1,0 +1,72 @@
+body{
+  font-family: Arial, sans-serif;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1SxBOGgTAw-Xk4e2E_7jAhJUoCAt8y-Dp3Q&usqp=CAU);
+  background-position: center;
+  mask-repeat: no-repeat;
+  background-size: cover;
+  height: 538px;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtK8JVxaAfcGcvFVijWyCIL9aXUYwURjwxZQ&usqp=CAU);
+  background-position: center;
+  mask-repeat: no-repeat;
+  background-size: cover;
+  height: 595px;
+  
+}
+}
+
+@media screen and (max-width: 600px){
+  img{
+    width: 50%;
+    height: 10%;
+  }
+}
+h2 {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#result {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
